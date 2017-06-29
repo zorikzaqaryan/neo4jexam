@@ -5,6 +5,7 @@ import jumpmicro.shared.model.MMLDataDictionaryItemDto;
 
 /**
  * Simple class to convert dto to entity and via versa
+ * In future can be used some converter libs for example selma
  */
 public class MMLDataDictionaryItemConverter {
 	public static MMLDataDictionaryItemDto toDto(MMLDataDictionaryItem in) {
